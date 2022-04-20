@@ -1,0 +1,84 @@
+<!--Briley Edlin --> 
+<!-- ITEC 236 - SIU -->
+<!-- Lab 1 Structure -->
+<!-- Date Created: 1/30/22 Date Tested: 2/20/22--> 
+
+<!-- document creation and language settings -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="bike shop">
+    <meta name="keywords" content="bikes, bicycles, bike shop, bike store">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/CSS page.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
+
+    <!-- title of website as reflected in the tab -->
+    <title>Briley's Bikes</title> <!-- name that appears on tab -->
+
+
+    <!-- style settings -->
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+    </style>
+
+    <!-- name of website and banner -->
+    <h1 style="color:pink;"><font size="+5em"><b> ♡ Briley's Bikes ♡ </b></font></h1>
+
+    <!-- border for formatting -->
+    <p style="color:pink;"><font size="+1em">---------------------------------------------------------------------------------------</font></p> 
+
+
+</head>
+
+<body>
+    <center>
+    <!-- Navigation Menu -->
+    <ul class="menu">
+        <li> <a href="index.html"><font size="+2">♡ Home </a></font></li>
+        <li> <a href="services.html"><font size="+2">♡ Services </a></font></li>
+        <li> <a href="rentals.html"><font size="+2">♡ Rentals </a></font></li>
+        <li> <a href="Sales.html"><font size="+2">♡ Sales </a></font></li>
+        <li> <a href="contact.html"><font size="+2">♡ Contact </a></font></li>
+    </ul>
+    </center>
+
+    <!-- color of website -->
+    <body style="background-color:rgb(255, 254, 220);"></body> 
+
+    <!-- image formatting -->
+    <p><img src="Images/pinkbike.jpeg"  class="img_border" height = 150 width = 300 onmouseover="this.src='Images/blue_bike.jpg'"height = 150 width = 300 onmouseout="this.src='Images/pinkbike.jpeg'" height = 150 width = 300 /><img></p>
+
+    <p style="color:pink;"><font size="+1em">------------------------------------------------------------</font></p> <!-- border for formatting -->
+  
+    <!-- conatact information formatting -->
+    <p style="color:pink;"><font size="+2"> <b> Contact Informatation: </b> </font></p>
+    <p style="color:pink;"><font size="+1"><b> Phone: 217-123-1234</b> </font></p>
+    <p style="color:pink;"><font size="+1"><b> Email: brileysbikes@gmail.com</b> </font></p>
+    <p style="color:pink;"><font size="+1em">------------------------------------------------------------</font></p> <!-- border for formatting -->
+
+    <!-- address formatting-->
+    <p style="color:pink;"><font size="+2"> <b> Store Address: </b> </font></p>
+    <p style="color:pink;"><font size="+1"><b> 21 Main St. <br> Somewhere, IL <br> 12345 </b> </font></p>
+
+
+    <!-- Audio Settings -->
+    <audio autoplay loop hidden>
+        <source src="Audio/bike_audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Scripts for SlickNav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="CSS/jquery.slicknav.js"></script>
+        <script>
+            $('.menu').slicknav();
+        </script>
+
+
+</body>
+</html>
