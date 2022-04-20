@@ -1,0 +1,70 @@
+<!--Briley Edlin --> 
+<!-- ITEC 236 - SIU -->
+<!-- Lab 3 -->
+<!-- Date Created: 2/14/22 Date Tested: 2/20/22--> 
+
+<!-- document creation and language settings -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="bike shop">
+    <meta name="keywords" content="bikes, bicycles, bike shop, bike store">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="CSS/CSS page.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
+
+        
+    <!-- title of website as reflected in the tab -->
+    <title>Briley's Bikes</title> <!-- name that appears on tab -->
+    
+    <!-- style settings -->
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+    
+    </style>
+</head>
+
+<body>
+    <!-- name of page and banner -->
+    <h1 style="color:pink;"><font size="+5em"><b> ♡ Sales ♡ </b></font></h1> 
+
+    <!-- border for formatting -->
+    <p style="color:pink;"><font size="+1em">---------------------------------------------------------------------------------------</font></p>
+
+    <!-- Navigation Menu -->
+    <nav id="menu">
+        <div>
+            <ul class="menu">
+                <li> <a href="index.html"><font size="+2">♡ Home </a></font></li>
+                <li> <a href="services.html"><font size="+2">♡ Services </a></font></li>
+                <li> <a href="rentals.html"><font size="+2">♡ Rentals </a></font></li>
+                <li> <a href="Sales.html"><font size="+2">♡ Sales </a></font></li>
+                <li> <a href="contact.html"><font size="+2">♡ Contact </a></font></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- image formatting -->
+    <p><img src="Images/pinkbike.jpeg"  class="img_border" height = 150 width = 300 onmouseover="this.src='Images/blue_bike.jpg'"height = 150 width = 300 onmouseout="this.src='Images/pinkbike.jpeg'" height = 150 width = 300 /><img></p>
+    
+    <!-- video formatting -->
+    <video  controls autoplay width="320" height="240">
+        <source src="Audio/bike_video.mp4" type="video/mp4">
+    </video>
+    
+    <!-- Scripts for SlickNav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="CSS/jquery.slicknav.js"></script>
+        <script>
+            $('.menu').slicknav();
+        </script>
+
+
+</body>
+
+

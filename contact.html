@@ -1,0 +1,129 @@
+<!--Briley Edlin --> 
+<!-- ITEC 236 - SIU -->
+<!-- Lab 3 -->
+<!-- Date Created: 2/16/22 Date Tested: 2/20/22--> 
+
+<!-- document creation and language settings -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="bike shop">
+    <meta name="keywords" content="bikes, bicycles, bike shop, bike store">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="CSS/CSS page.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        
+    <!-- title of website as reflected in the tab -->
+    <title>Briley's Bikes</title> <!-- name that appears on tab -->
+    
+    <!-- style settings -->
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+    
+    </style>
+</head>
+
+<body>
+    <!-- name of page and banner -->
+    <h1 style="color:pink;"><font size="+5em"><b> ♡ Contact Us ♡ </b></font></h1> 
+
+    <!-- border for formatting -->
+    <p style="color:pink;"><font size="+1em">---------------------------------------------------------------------------------------</font></p>
+    
+    <!-- Navigation Menu -->
+    <nav id="menu">
+        <div>
+            <ul class="menu">
+                <li> <a href="index.html"><font size="+2">♡ Home </a></font></li>
+                <li> <a href="services.html"><font size="+2">♡ Services </a></font></li>
+                <li> <a href="rentals.html"><font size="+2">♡ Rentals </a></font></li>
+                <li> <a href="Sales.html"><font size="+2">♡ Sales </a></font></li>
+                <li> <a href="contact.html"><font size="+2">♡ Contact </a></font></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- image formatting -->
+    <p><img src="Images/pinkbike.jpeg"  class="img_border" height = 150 width = 300 onmouseover="this.src='Images/blue_bike.jpg'"height = 150 width = 300 onmouseout="this.src='Images/pinkbike.jpeg'" height = 150 width = 300 /><img></p>
+    
+
+    <!-- Form Creation and formatting -->
+    <h1 style="color:pink;"><font size="+4em">Send us a Message!</h1></font>
+
+    <form><font size="+1em">
+        <label for="First Name">First Name:</label><br>
+        <input type="text" id="fname" name="fname" minlength="1" required><br>
+        <br>
+        <label for="Last Name">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" minlength="1" required><br>
+        <br>
+        <label for="Email">Email:</label><br>
+        <input type="text" id="email" name="email" required><br>
+        <br>
+        <label for="Password">Password:</label><br>
+        <input type="text" id="psswrd" name="psswrd" minlength="1" required><br>
+        <br>
+        <label for="Address">Address:</label><br>
+        <input type="text" id="adress" name="address" minlength="1" required><br>
+        <br>
+        <label for="City">City:</label><br>
+        <input type="text" id="city" name="city" minlength="1" required><br>
+        <br>
+        <label for="State">State:</label><br>
+        <input type="text" id="state" name="state" maxlength="2" minlength="2" required><br>
+        <br>
+        <label for="Zip Code">Zip Code:</label><br>
+        <input type="text" id="zip" name="zip" maxlength="6" minlength="6" required><br>
+        <br>
+        <label for="Phone Number">Phone Number:</label><br>
+        <input type="text" id="phone" name="phone" maxlength="10" minlength="10" required><br>
+        <br>
+        <label for="Date">Date:</label><br>
+        <input type="text" id="date" name="date" maxlength="10" minlength="8" required><br>
+        <br>
+        
+        Type of Inquery: 
+        <br>
+        <input type="radio" id="suggestion" value="Suggestion" name="inquery" required>
+        <label for="suggestion">Suggestion</label>
+        <input type="radio" id="Question" value="Question" name="inquery">
+        <label for="Question">Question</label>
+        <input type="radio" id="Other" value="Other"  name="inquery">
+        <label for="Other">Other</label><br>
+        <br>
+        Type of Product:
+        <br>
+        <input type="radio" id="bike" value="bike" name="inquery" required>
+        <label for="bike">Bike</label>
+        <input type="radio" id="Accessory" value="Accessory"  name="inquery">
+        <label for="Accessory">Accessory</label>
+        <input type="radio" id="Other" value="Other"  name="inquery">
+        <label for="Other">Other</label><br>
+
+        <br>
+        <label for="Message">Message:</label><br>
+        <input type="text" id="msg" name="msg" maxlength="200" minlength="20" required><br>
+
+        <br><input type="submit" value="Submit"><input type="reset" value="Reset"><br>
+        
+    </form></font>
+
+    <!-- Scripts for SlickNav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="CSS/jquery.slicknav.js"></script>
+        <script>
+            $('.menu').slicknav();
+        </script>
+
+
+</body>
+
+
+

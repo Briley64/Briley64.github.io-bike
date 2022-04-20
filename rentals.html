@@ -1,0 +1,118 @@
+<!--Briley Edlin --> 
+<!-- ITEC 236 - SIU -->
+<!-- Lab 2 Part 2 -->
+<!-- Date Created: 1/30/22 Date Tested: 1/30/22--> 
+
+<!-- document creation and language settings -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="bike shop">
+    <meta name="keywords" content="bikes, bicycles, bike shop, bike store">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/CSS page.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
+    
+    <!-- title of website as reflected in the tab -->
+    <title>Briley's Bikes</title> <!-- name that appears on tab -->
+
+    <!-- style settings -->
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+
+    </style>
+    <style>
+        @media screen and (max-width: 600px) {
+            column1 {
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            column2 {
+                width: 100%;
+            }
+        }
+
+        column1:after {
+        content: "";
+        display: table;
+        clear: both;
+        float:none
+        }
+
+        column2:after {
+        content: "";
+        display: table;
+        clear: both;
+        float:none
+        }
+    </style>
+</head>
+
+<body>
+    <!-- color of website -->
+    <body style="background-color:rgb(255, 254, 220);"></body> 
+    
+    <!-- name of website and banner -->
+    <h1 style="color:pink;"><font size="+5em"><b> ♡ Rentals ♡ </b></font></h1> 
+
+    <!-- border for formatting -->
+    <p style="color:pink;"><font size="+1em">---------------------------------------------------------------------------------------</font></p>
+    
+    <!-- Navigation Menu -->
+    <nav id="menu">
+        <div>
+            <ul class="menu">
+                <li> <a href="index.html"><font size="+2">♡ Home </a></font></li>
+                <li> <a href="services.html"><font size="+2">♡ Services </a></font></li>
+                <li> <a href="rentals.html"><font size="+2">♡ Rentals </a></font></li>
+                <li> <a href="Sales.html"><font size="+2">♡ Sales </a></font></li>
+                <li> <a href="contact.html"><font size="+2">♡ Contact </a></font></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <!-- image formatting -->
+    <p><img src="Images/pinkbike.jpeg"  class="img_border" height = 150 width = 300 onmouseover="this.src='Images/blue_bike.jpg'"height = 150 width = 300 onmouseout="this.src='Images/pinkbike.jpeg'" height = 150 width = 300 /><img></p>
+
+    <!-- Scripts for SlickNav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="CSS/jquery.slicknav.js"></script>
+        <script>
+            $('.menu').slicknav();
+        </script>
+
+
+
+</body>
+
+<column1>
+    <!-- column 1 for street bikes -->
+    <h1 style="color:rgb(255, 255, 255);"><font size="+4em"><b> Street Bikes </b></font><br><img src="images/pink_road_bike.jpg.crdownload" height = 200 width = 350 ><br></h1>
+    
+    <!-- pricing and conditions -->
+    <p style="color:rgb(255, 255, 255);"><font size="+1em">Daily rental price: $20 </font></p>
+    <p style="color:rgb(255, 255, 255);"><font size="+1em">Weekly rental price: $100 </font></p>
+    <p style="color:rgb(255, 255, 255);"><font size="+1em">Helmet and other safty gear required. One size fits most.</font></p>
+
+    
+</column1>
+
+<column2>
+    <!-- column 2 for mountain bikes -->
+    <h1 style="color:rgb(255, 255, 255);"><font size="+4em"><b> Mountain Bikes </b></font><br><img src="images/pink_mountain_bike.jpeg" height = 200 width = 350 ><br></h1>
+
+    <!-- pricing and conditions -->
+    <p style="color:rgb(255, 255, 255);"><font size="+1em">Daily rental price: $25 </font></p>
+    <p style="color:rgb(255, 255, 255);"><font size="+1em">Weekly rental price: $130 </font></p>
+    <p style="color:rgb(255, 255, 255);"><font size="+1em">Helmet and other safty gear required. One size fits most.</font></p>
+
+</column2>
+
+
+
